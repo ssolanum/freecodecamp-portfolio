@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #FFEEF2;
+}
+
+body {
+    position: relative;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+h1 {
+    font-family: Roboto Condensed;
+}
+
+p, header {
+    font-family: Roboto;
+    font-size: 1.5rem;
+}
+
+#navbar {
+    background-color: #52528C;
+    display: flex;
+    height: 8vh;
+    width: 100vw;
+    justify-content: flex-end;
+
+}
+
+.nav-button {
+    margin-top: 18px;
+    margin-right: 40px;
+    height: 100%;
+    align-items: center;
+    color: #FFEEF2;
+    font-weight: bold;
+}
+
+#welcome-section {
+    background-color: #231123;
+    background-image: linear-gradient(135deg, #231123 0%, #000000 100%);
+    
+    width: 100vw;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome-section h1 {
+    color: #FFEEF2;
+    font-size: 5rem;
+}
+
+#welcome-section p {
+    color: #52528C;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+#welcome-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 8vh;
+}
+
+#projects {
+    background-color: #7C9EB2;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+}
+
+#projects h2 {
+    font-family: Roboto Condensed;
+    font-size: 2.6rem;
+    color: #FFEEF2;
+    border-bottom: 4px solid #FFEEF2;
+}
+
+#tiles-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    height: 50%;
+    margin-top: 50px;
+}
+
+.project-tile {
+    width: 30%;
+    background-color: #231123;
+    height: 100%;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    color: #FFEEF2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projects a {
+    height: 100%;
+}
+
+#projects img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#projects p {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-family: Roboto;
+    font-size: 1.4rem;
+    background-color: #231123;
+    color: #FFEEF2;
+    margin-top: 70px;
+}
+
+#contact {
+    height: 100vh;
+    background-color: #231123;
+    background-image: linear-gradient(135deg, #231123 0%, #000000 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-container h1 {
+    color: #FFEEF2;
+    font-family: Roboto Condensed;
+    font-size: 5rem;
+}
+
+#contact-container p {
+    color: #52528C;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+#contact-links {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    margin-top: 70px;
+}
